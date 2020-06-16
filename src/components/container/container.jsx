@@ -5,17 +5,18 @@ class Menu extends Component {
   render() {
     return (
       <div class="container marketing">
-        <h1 class="text-center">JE SUIS UN TITRE CONTAINER</h1>
+        <h1 class="text-center">Trouver un photographe n'a jamais été aussi easy frère !</h1>
+        <br />
         <div class="row">
           <div class="col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <h2>Je suis venu</h2>
+            <p>Tu tapes (non pas taper avec les poings) ta recherche et hop ça va te trouver un gars qui a besoin de tune pour te prendre des photos, en plus c'est lui qui se bouge le cul pour toi !</p>
           </div>
-          <div class="col-lg-4"><h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <div class="col-lg-4"><h2>J'ai vu</h2>
+            <p>Bossez pépère sur des projets artisitques de maaldes mental de la mort qui tue sauf que techniquement on peut pas tuer la mort puisqu'il est mort !</p>
           </div>
-          <div class="col-lg-4"><h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <div class="col-lg-4"><h2>J'ai rien foutu</h2>
+            <p>Payez et tout le monde est content ouai oiuai sisi après vous êtes contents de ouf parce que c'est magnifaiiiique !</p>
           </div>
         </div>
 

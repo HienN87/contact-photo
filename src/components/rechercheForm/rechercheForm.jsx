@@ -6,7 +6,7 @@ class RechercheForm extends Component {
   render() {
     return (
       <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <p class="lead font-weight-normal">Trouvez des photographes près de chez vous.</p>
+        <p class="lead font-weight-normal">Des photographes près de ton village oyez !</p>
         <div class="product-device shadow-sm d-none d-md-block"></div>
         <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         <form>
