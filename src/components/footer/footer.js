@@ -7,15 +7,15 @@ class Footer extends Component {
       <footer class="container py-5">
         <div class="row">
           <div class="col-6 col-md">
-            <h5>Features</h5>
+            <h5>Nos services</h5>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Cool stuff</a></li>
-              <li><a class="text-muted" href="#">Random feature</a></li>
-              <li><a class="text-muted" href="#">Team feature</a></li>
+              <li><a class="text-muted" href="#">Carapuce</a></li>
+              <li><a class="text-muted" href="#">Carabaffe</a></li>
+              <li><a class="text-muted" href="#">Tortank</a></li>
             </ul>
           </div>
           <div class="col-6 col-md">
-            <h5>About</h5>
+            <h5>L'entreprise</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">A propos de nous</a></li>
               <li><a class="text-muted" href="#">L'équipe</a></li>
