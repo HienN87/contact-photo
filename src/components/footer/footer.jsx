@@ -1,0 +1,33 @@
+import React, { Component } from 'react'
+
+class Footer extends Component {
+
+  render() {
+    return (
+      <footer class="container py-5">
+        <div class="row">
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Cool stuff</a></li>
+              <li><a class="text-muted" href="#">Random feature</a></li>
+              <li><a class="text-muted" href="#">Team feature</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">A propos de nous</a></li>
+              <li><a class="text-muted" href="#">L'équipe</a></li>
+              <li><a class="text-muted" href="#">CGU</a></li>
+            </ul>
+          </div>
+        </div>
+        <p>© 2017-2020 Contacte un photographe</p>
+      </footer>
+    )
+  }
+
+}
+
+export default Footer;
