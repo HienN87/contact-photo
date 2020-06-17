@@ -18,8 +18,8 @@ class RechercheForm extends Component {
 
             <div class="col">
               <select id="inputState" class="form-control">
-                <option selected>Type</option>
-                <option value="mariage">Mariage</option>
+                <option>Type</option>
+                <option>Mariage</option>
                 <option>Portrait</option>
                 <option>Voyage</option>
               </select>

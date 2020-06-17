@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-
+import './footer.css'
 class Footer extends Component {
 
   render() {
     return (
-      <footer class="container py-5">
+      <footer>
         <div class="row">
           <div class="col-6 col-md">
             <h5>Nos services</h5>
