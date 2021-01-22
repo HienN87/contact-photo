@@ -23,7 +23,7 @@ class Footer extends Component {
             </ul>
           </div>
         </div>
-        <p>© 2017-2020 Contacte un photographe</p>
+        <p className='copyright'>© 2017-2020 Contacte un photographe</p>
       </footer>
     )
   }
