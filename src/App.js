@@ -1,20 +1,16 @@
 import React from 'react';
-import Menu from './components/Menu'
-import RechercheForm from './components/RechercheForm'
-import Footer from './components/Footer'
-import Container from './components/Container'
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Menu />
-
-      <RechercheForm />
-
-      <Container />
-
-      <Footer />
-    </div >
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route component={NotFound} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
