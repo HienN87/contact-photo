@@ -1,9 +1,8 @@
 import React from 'react';
-import './App.css';
-import Menu from './components/menu/menu'
-import RechercheForm from './components/rechercheForm/rechercheForm'
-import Footer from './components/footer/footer'
-import Container from './components/container/container'
+import Menu from './components/Menu'
+import RechercheForm from './components/RechercheForm'
+import Footer from './components/Footer'
+import Container from './components/Container'
 
 function App() {
   return (
