@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class RechercheForm extends Component {
-
   render() {
     return (
       <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <p class="lead font-weight-normal">Des photographes près de ton village oyez !</p>
+        <p class="lead font-weight-normal">
+          Des photographes près de ton village oyez !
+        </p>
 
         <form>
           <div class="row">
@@ -25,13 +26,14 @@ class RechercheForm extends Component {
             </div>
 
             <div class="col">
-              <button type="button" class="btn btn-primary float-left">Rechercher</button>
+              <button type="button" class="btn btn-primary float-left">
+                Rechercher
+              </button>
             </div>
-
           </div>
         </form>
       </div>
-    )
+    );
   }
 }
 
